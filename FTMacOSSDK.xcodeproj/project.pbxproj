@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17164B7529E0343B007D71D6 /* FTSDKAgent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 17164B7429E0343B007D71D6 /* FTSDKAgent+Private.h */; };
+		177BA54229DBDE8500DB7497 /* FTTraceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 177BA54029DBDE8500DB7497 /* FTTraceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177BA54329DBDE8500DB7497 /* FTTraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 177BA54129DBDE8500DB7497 /* FTTraceManager.m */; };
+		1799DFBD29CB05890043D7B5 /* FTGlobalRumManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DF9829CB05890043D7B5 /* FTGlobalRumManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1799DFBF29CB05890043D7B5 /* FTSDKAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DF9A29CB05890043D7B5 /* FTSDKAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1799DFC029CB05890043D7B5 /* FTSDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DF9B29CB05890043D7B5 /* FTSDKConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1799DFC229CB05890043D7B5 /* FTGlobalRumManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DF9D29CB05890043D7B5 /* FTGlobalRumManager+Private.h */; };
+		1799DFC429CB05890043D7B5 /* NSCollectionView+FTAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFA029CB05890043D7B5 /* NSCollectionView+FTAutoTrack.m */; };
+		1799DFC529CB05890043D7B5 /* NSWindow+FTAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFA129CB05890043D7B5 /* NSWindow+FTAutoTrack.m */; };
+		1799DFC629CB05890043D7B5 /* NSView+FTAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFA229CB05890043D7B5 /* NSView+FTAutoTrack.h */; };
+		1799DFC729CB05890043D7B5 /* NSMenuItem+FTAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFA329CB05890043D7B5 /* NSMenuItem+FTAutoTrack.h */; };
+		1799DFC829CB05890043D7B5 /* FTAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFA429CB05890043D7B5 /* FTAutoTrack.m */; };
+		1799DFCB29CB05890043D7B5 /* FTAutoTrackProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFA729CB05890043D7B5 /* FTAutoTrackProtocol.h */; };
+		1799DFCC29CB05890043D7B5 /* NSTabView+FTAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFA829CB05890043D7B5 /* NSTabView+FTAutoTrack.h */; };
+		1799DFCD29CB05890043D7B5 /* NSApplication+FTAutotrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFA929CB05890043D7B5 /* NSApplication+FTAutotrack.h */; };
+		1799DFCE29CB05890043D7B5 /* NSView+FTAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFAA29CB05890043D7B5 /* NSView+FTAutoTrack.m */; };
+		1799DFCF29CB05890043D7B5 /* NSMenuItem+FTAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFAB29CB05890043D7B5 /* NSMenuItem+FTAutoTrack.m */; };
+		1799DFD029CB05890043D7B5 /* NSWindow+FTAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFAC29CB05890043D7B5 /* NSWindow+FTAutoTrack.h */; };
+		1799DFD129CB05890043D7B5 /* NSCollectionView+FTAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFAD29CB05890043D7B5 /* NSCollectionView+FTAutoTrack.h */; };
+		1799DFD429CB05890043D7B5 /* FTAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFB029CB05890043D7B5 /* FTAutoTrack.h */; };
+		1799DFD629CB05890043D7B5 /* NSApplication+FTAutotrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFB229CB05890043D7B5 /* NSApplication+FTAutotrack.m */; };
+		1799DFD729CB05890043D7B5 /* NSTabView+FTAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFB329CB05890043D7B5 /* NSTabView+FTAutoTrack.m */; };
+		1799DFD829CB05890043D7B5 /* FTSDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFB429CB05890043D7B5 /* FTSDKConfig.m */; };
+		1799DFD929CB05890043D7B5 /* FTSDKAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFB529CB05890043D7B5 /* FTSDKAgent.m */; };
+		1799DFDB29CB05890043D7B5 /* FTGlobalRumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799DFB729CB05890043D7B5 /* FTGlobalRumManager.m */; };
+		1799DFDE29CB05890043D7B5 /* FTMacOSSDKVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 1799DFBA29CB05890043D7B5 /* FTMacOSSDKVersion.h */; };
+		17C5FC992A4830640099A293 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 17C5FC982A4830640099A293 /* Documentation.docc */; };
+		17C5FC9B2A48311B0099A293 /* FTSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C5FC9A2A48311B0099A293 /* FTSDKCore.framework */; };
+		17C5FCA32A48393F0099A293 /* FTMacOSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C5FCA22A48393F0099A293 /* FTMacOSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17164B7429E0343B007D71D6 /* FTSDKAgent+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTSDKAgent+Private.h"; sourceTree = "<group>"; };
+		17510DFD29C9BE7D00C8F1E4 /* FTMacOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTMacOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		177BA54029DBDE8500DB7497 /* FTTraceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTraceManager.h; sourceTree = "<group>"; };
+		177BA54129DBDE8500DB7497 /* FTTraceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTraceManager.m; sourceTree = "<group>"; };
+		1799DF9829CB05890043D7B5 /* FTGlobalRumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTGlobalRumManager.h; sourceTree = "<group>"; };
+		1799DF9A29CB05890043D7B5 /* FTSDKAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSDKAgent.h; sourceTree = "<group>"; };
+		1799DF9B29CB05890043D7B5 /* FTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSDKConfig.h; sourceTree = "<group>"; };
+		1799DF9D29CB05890043D7B5 /* FTGlobalRumManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FTGlobalRumManager+Private.h"; sourceTree = "<group>"; };
+		1799DFA029CB05890043D7B5 /* NSCollectionView+FTAutoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCollectionView+FTAutoTrack.m"; sourceTree = "<group>"; };
+		1799DFA129CB05890043D7B5 /* NSWindow+FTAutoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+FTAutoTrack.m"; sourceTree = "<group>"; };
+		1799DFA229CB05890043D7B5 /* NSView+FTAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+FTAutoTrack.h"; sourceTree = "<group>"; };
+		1799DFA329CB05890043D7B5 /* NSMenuItem+FTAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMenuItem+FTAutoTrack.h"; sourceTree = "<group>"; };
+		1799DFA429CB05890043D7B5 /* FTAutoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTAutoTrack.m; sourceTree = "<group>"; };
+		1799DFA729CB05890043D7B5 /* FTAutoTrackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAutoTrackProtocol.h; sourceTree = "<group>"; };
+		1799DFA829CB05890043D7B5 /* NSTabView+FTAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTabView+FTAutoTrack.h"; sourceTree = "<group>"; };
+		1799DFA929CB05890043D7B5 /* NSApplication+FTAutotrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+FTAutotrack.h"; sourceTree = "<group>"; };
+		1799DFAA29CB05890043D7B5 /* NSView+FTAutoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+FTAutoTrack.m"; sourceTree = "<group>"; };
+		1799DFAB29CB05890043D7B5 /* NSMenuItem+FTAutoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMenuItem+FTAutoTrack.m"; sourceTree = "<group>"; };
+		1799DFAC29CB05890043D7B5 /* NSWindow+FTAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+FTAutoTrack.h"; sourceTree = "<group>"; };
+		1799DFAD29CB05890043D7B5 /* NSCollectionView+FTAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCollectionView+FTAutoTrack.h"; sourceTree = "<group>"; };
+		1799DFB029CB05890043D7B5 /* FTAutoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTAutoTrack.h; sourceTree = "<group>"; };
+		1799DFB229CB05890043D7B5 /* NSApplication+FTAutotrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+FTAutotrack.m"; sourceTree = "<group>"; };
+		1799DFB329CB05890043D7B5 /* NSTabView+FTAutoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTabView+FTAutoTrack.m"; sourceTree = "<group>"; };
+		1799DFB429CB05890043D7B5 /* FTSDKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSDKConfig.m; sourceTree = "<group>"; };
+		1799DFB529CB05890043D7B5 /* FTSDKAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSDKAgent.m; sourceTree = "<group>"; };
+		1799DFB729CB05890043D7B5 /* FTGlobalRumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTGlobalRumManager.m; sourceTree = "<group>"; };
+		1799DFBA29CB05890043D7B5 /* FTMacOSSDKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMacOSSDKVersion.h; sourceTree = "<group>"; };
+		17C5FC982A4830640099A293 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = FTMacOSSDK/Documentation.docc; sourceTree = "<group>"; };
+		17C5FC9A2A48311B0099A293 /* FTSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FTSDKCore.framework; path = Framework/FTSDKCore.framework; sourceTree = "<group>"; };
+		17C5FCA22A48393F0099A293 /* FTMacOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FTMacOSSDK.h; path = FTMacOSSDK/FTMacOSSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17510DFA29C9BE7D00C8F1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C5FC9B2A48311B0099A293 /* FTSDKCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17510DF329C9BE7D00C8F1E4 = {
+			isa = PBXGroup;
+			children = (
+				17C5FC982A4830640099A293 /* Documentation.docc */,
+				17510DFF29C9BE7D00C8F1E4 /* FTMacOSSDK */,
+				1799DFDF29CB07690043D7B5 /* Frameworks */,
+				17C5FC9F2A48389D0099A293 /* Supporting Files */,
+				17510DFE29C9BE7D00C8F1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17510DFE29C9BE7D00C8F1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17510DFD29C9BE7D00C8F1E4 /* FTMacOSSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17510DFF29C9BE7D00C8F1E4 /* FTMacOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1799DF9529CB05890043D7B5 /* SDKCore */,
+			);
+			path = FTMacOSSDK;
+			sourceTree = "<group>";
+		};
+		1799DF9529CB05890043D7B5 /* SDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				1799DF9D29CB05890043D7B5 /* FTGlobalRumManager+Private.h */,
+				1799DF9829CB05890043D7B5 /* FTGlobalRumManager.h */,
+				1799DFB729CB05890043D7B5 /* FTGlobalRumManager.m */,
+				1799DF9A29CB05890043D7B5 /* FTSDKAgent.h */,
+				1799DFB529CB05890043D7B5 /* FTSDKAgent.m */,
+				17164B7429E0343B007D71D6 /* FTSDKAgent+Private.h */,
+				1799DF9B29CB05890043D7B5 /* FTSDKConfig.h */,
+				1799DFB429CB05890043D7B5 /* FTSDKConfig.m */,
+				177BA54029DBDE8500DB7497 /* FTTraceManager.h */,
+				177BA54129DBDE8500DB7497 /* FTTraceManager.m */,
+				1799DF9E29CB05890043D7B5 /* AutoTrack */,
+				1799DFBA29CB05890043D7B5 /* FTMacOSSDKVersion.h */,
+			);
+			path = SDKCore;
+			sourceTree = "<group>";
+		};
+		1799DF9E29CB05890043D7B5 /* AutoTrack */ = {
+			isa = PBXGroup;
+			children = (
+				1799DFAD29CB05890043D7B5 /* NSCollectionView+FTAutoTrack.h */,
+				1799DFA029CB05890043D7B5 /* NSCollectionView+FTAutoTrack.m */,
+				1799DFAC29CB05890043D7B5 /* NSWindow+FTAutoTrack.h */,
+				1799DFA129CB05890043D7B5 /* NSWindow+FTAutoTrack.m */,
+				1799DFA229CB05890043D7B5 /* NSView+FTAutoTrack.h */,
+				1799DFAA29CB05890043D7B5 /* NSView+FTAutoTrack.m */,
+				1799DFA329CB05890043D7B5 /* NSMenuItem+FTAutoTrack.h */,
+				1799DFB329CB05890043D7B5 /* NSTabView+FTAutoTrack.m */,
+				1799DFAB29CB05890043D7B5 /* NSMenuItem+FTAutoTrack.m */,
+				1799DFB029CB05890043D7B5 /* FTAutoTrack.h */,
+				1799DFA429CB05890043D7B5 /* FTAutoTrack.m */,
+				1799DFA729CB05890043D7B5 /* FTAutoTrackProtocol.h */,
+				1799DFA829CB05890043D7B5 /* NSTabView+FTAutoTrack.h */,
+				1799DFA929CB05890043D7B5 /* NSApplication+FTAutotrack.h */,
+				1799DFB229CB05890043D7B5 /* NSApplication+FTAutotrack.m */,
+			);
+			path = AutoTrack;
+			sourceTree = "<group>";
+		};
+		1799DFDF29CB07690043D7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C5FC9A2A48311B0099A293 /* FTSDKCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C5FC9F2A48389D0099A293 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C5FCA22A48393F0099A293 /* FTMacOSSDK.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17510DF829C9BE7D00C8F1E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799DFD029CB05890043D7B5 /* NSWindow+FTAutoTrack.h in Headers */,
+				177BA54229DBDE8500DB7497 /* FTTraceManager.h in Headers */,
+				1799DFBF29CB05890043D7B5 /* FTSDKAgent.h in Headers */,
+				1799DFC029CB05890043D7B5 /* FTSDKConfig.h in Headers */,
+				1799DFC729CB05890043D7B5 /* NSMenuItem+FTAutoTrack.h in Headers */,
+				17164B7529E0343B007D71D6 /* FTSDKAgent+Private.h in Headers */,
+				1799DFC629CB05890043D7B5 /* NSView+FTAutoTrack.h in Headers */,
+				1799DFBD29CB05890043D7B5 /* FTGlobalRumManager.h in Headers */,
+				1799DFC229CB05890043D7B5 /* FTGlobalRumManager+Private.h in Headers */,
+				1799DFCD29CB05890043D7B5 /* NSApplication+FTAutotrack.h in Headers */,
+				1799DFCC29CB05890043D7B5 /* NSTabView+FTAutoTrack.h in Headers */,
+				1799DFCB29CB05890043D7B5 /* FTAutoTrackProtocol.h in Headers */,
+				1799DFD429CB05890043D7B5 /* FTAutoTrack.h in Headers */,
+				1799DFD129CB05890043D7B5 /* NSCollectionView+FTAutoTrack.h in Headers */,
+				1799DFDE29CB05890043D7B5 /* FTMacOSSDKVersion.h in Headers */,
+				17C5FCA32A48393F0099A293 /* FTMacOSSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17510DFC29C9BE7D00C8F1E4 /* FTMacOSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17510E0429C9BE7D00C8F1E4 /* Build configuration list for PBXNativeTarget "FTMacOSSDK" */;
+			buildPhases = (
+				17510DF829C9BE7D00C8F1E4 /* Headers */,
+				17510DF929C9BE7D00C8F1E4 /* Sources */,
+				17510DFA29C9BE7D00C8F1E4 /* Frameworks */,
+				17510DFB29C9BE7D00C8F1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTMacOSSDK;
+			packageProductDependencies = (
+			);
+			productName = FTMacOSSDK;
+			productReference = 17510DFD29C9BE7D00C8F1E4 /* FTMacOSSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17510DF429C9BE7D00C8F1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = TRUEWATCH;
+				TargetAttributes = {
+					17510DFC29C9BE7D00C8F1E4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 17510DF729C9BE7D00C8F1E4 /* Build configuration list for PBXProject "FTMacOSSDK" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17510DF329C9BE7D00C8F1E4;
+			packageReferences = (
+			);
+			productRefGroup = 17510DFE29C9BE7D00C8F1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17510DFC29C9BE7D00C8F1E4 /* FTMacOSSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17510DFB29C9BE7D00C8F1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17510DF929C9BE7D00C8F1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799DFC429CB05890043D7B5 /* NSCollectionView+FTAutoTrack.m in Sources */,
+				177BA54329DBDE8500DB7497 /* FTTraceManager.m in Sources */,
+				1799DFD829CB05890043D7B5 /* FTSDKConfig.m in Sources */,
+				1799DFCF29CB05890043D7B5 /* NSMenuItem+FTAutoTrack.m in Sources */,
+				1799DFD629CB05890043D7B5 /* NSApplication+FTAutotrack.m in Sources */,
+				1799DFD729CB05890043D7B5 /* NSTabView+FTAutoTrack.m in Sources */,
+				1799DFD929CB05890043D7B5 /* FTSDKAgent.m in Sources */,
+				17C5FC992A4830640099A293 /* Documentation.docc in Sources */,
+				1799DFDB29CB05890043D7B5 /* FTGlobalRumManager.m in Sources */,
+				1799DFC829CB05890043D7B5 /* FTAutoTrack.m in Sources */,
+				1799DFC529CB05890043D7B5 /* NSWindow+FTAutoTrack.m in Sources */,
+				1799DFCE29CB05890043D7B5 /* NSView+FTAutoTrack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17510E0229C9BE7D00C8F1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17510E0329C9BE7D00C8F1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17510E0529C9BE7D00C8F1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RRLM22BB37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Framework/FTSDKCore.framework\"",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Framework/FTSDKCore.framework/Headers\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ft.mobile.sdk.FTMacOSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Debug;
+		};
+		17510E0629C9BE7D00C8F1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RRLM22BB37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Framework/FTSDKCore.framework\"",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Framework/FTSDKCore.framework/Headers\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ft.mobile.sdk.FTMacOSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				RUN_DOCUMENTATION_COMPILER = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17510DF729C9BE7D00C8F1E4 /* Build configuration list for PBXProject "FTMacOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17510E0229C9BE7D00C8F1E4 /* Debug */,
+				17510E0329C9BE7D00C8F1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17510E0429C9BE7D00C8F1E4 /* Build configuration list for PBXNativeTarget "FTMacOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17510E0529C9BE7D00C8F1E4 /* Debug */,
+				17510E0629C9BE7D00C8F1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17510DF429C9BE7D00C8F1E4 /* Project object */;
+}

@@ -1,0 +1,1 @@
+../SDKCore/FTTraceManager.h
