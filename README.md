@@ -1,29 +1,10 @@
+# TrueWatchTech SDK for macOS
 
-# TrueWatchTech SDK macOS
+> [!IMPORTANT]
+> This repository has been deprecated and is no longer maintained.
 
-![Cocoapods platforms](https://img.shields.io/badge/dynamic/json?label=platform&color=lightgrey&query=$.platform&uri=https://static.truewatch.com/ft-sdk-package/badge/macos/info.json&link=https://github.com/TrueWatchTech/datakit-macos)
-![Cocoapods](https://img.shields.io/badge/dynamic/json?label=pod&color=orange&query=$.version&uri=https://static.truewatch.com/ft-sdk-package/badge/macos/version.json&link=https://github.com/TrueWatchTech/datakit-macos)
-![Cocoapods](https://img.shields.io/badge/dynamic/json?label=license&color=lightgrey&query=$.license&uri=https://static.truewatch.com/ft-sdk-package/badge/macos/info.json&link=https://github.com/TrueWatchTech/datakit-macos)
+macOS support has been merged into the TrueWatchTech SDK for iOS, tvOS, and
+macOS. For the latest source code, releases, documentation, and issue tracking,
+please use:
 
-[![](https://img.shields.io/badge/dynamic/json?label=macOS&color=brightgreen&query=$.macos_api_support&uri=https://static.truewatch.com/ft-sdk-package/badge/macos/info.json&link=https://github.com/TrueWatchTech/datakit-macos)]()
-
-## Introduction
-
-TrueWatchTech Application Monitoring can collect metrics data from various macOS applications and analyze the performance of each macOS application in a visual way.
-
-## Example
-
- [TrueWatchTech SDK macOS Demo](https://github.com/TrueWatchTech/datakit-macos/tree/develop/Example)   
-
-## Documentation
-
- [Documentation Center](https://docs.truewatch.com/real-user-monitoring/macos/app-access/)   
-
-
-
-   
-
- 
-
-
-
+## [TrueWatchTech/datakit-ios](https://github.com/TrueWatchTech/datakit-ios)

@@ -16,9 +16,9 @@ if [[ $? -eq 0 ]];then
 
   sed  -i '' 's/SDK_VERSION.*/SDK_VERSION @"'$VERSION'"/g' FTMacOSSDK/SDKCore/FTMacOSSDKVersion.h
 
-  sed  -i '' 's/$JENKINS_DYNAMIC_VERSION/'"$VERSION"'/g' FTMacOSSDK.podspec
+  sed  -i '' 's/$JENKINS_DYNAMIC_VERSION/'"$VERSION"'/g' TrueWatchMacOSSDK.podspec
 
-  echo pod trunk push FTMacOSSDK.podspec --verbose --allow-warnings
+  echo pod trunk push TrueWatchMacOSSDK.podspec --verbose --allow-warnings
 
 else
   exit  1
